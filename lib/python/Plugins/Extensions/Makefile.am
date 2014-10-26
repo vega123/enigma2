@@ -5,7 +5,7 @@ SUBDIRS = TuxboxPlugins CutListEditor PicturePlayer MediaScanner MediaPlayer Gra
 if HAVE_LIBDDVD
 SUBDIRS += DVDPlayer backupsfteam
 endif
-if HAVE_LIBbackup
+if HAVE
 SUBDIRS += backupsfteam
 endif
 
